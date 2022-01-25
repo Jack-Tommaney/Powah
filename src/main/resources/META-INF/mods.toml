@@ -26,3 +26,12 @@ Various ways to generate, store and transmit FE power.
     versionRange="[39.0.10,)"
     ordering="NONE"
     side="BOTH"
+
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+# XDW has added MC Dependency for 1.18
+# This version range declares a minimum of the current minecraft version up to but not including the next major version
+    versionRange="[1.18.1,1.19)"
+    ordering="NONE"
+    side="BOTH"
